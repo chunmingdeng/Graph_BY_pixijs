@@ -1,0 +1,79 @@
+{
+  "nodes": [
+    {
+      "id": "people~`#321284198702201103",
+      "data": {
+        "type": "people",
+        "label": "321284198702201103"
+      },
+      "attributes": {
+        "x": -288.04855570159026,
+        "y": -363.5339239270416
+      }
+    },
+    {
+      "id": "school~`#3",
+      "data": {
+        "type": "school",
+        "label": "京州二中"
+      },
+      "attributes": {
+        "x": 24.06691413227057,
+        "y": -53.33352653747356
+      }
+    },
+    {
+      "id": "vehicle~`#苏FM1SND",
+      "data": {
+        "type": "vehicle",
+        "label": "苏FM1SND"
+      },
+      "attributes": {
+        "x": -178.43194696634853,
+        "y": -495.7046253901086
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "people~`#321284198702201103~`#school~`#3~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#3",
+      "data": {
+        "label": "就读学校",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#school~`#3~`#study_at~`#SourceToTarget1",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#3",
+      "data": {
+        "label": "就读学校",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`vehicle~`#苏FM1SND~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "vehicle~`#苏FM1SND",
+      "data": {
+        "label": "车辆",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`vehicle~`#苏FM1SND~`#study_at~`#SourceToTarget1",
+      "fromId": "people~`#321284198702201103",
+      "toId": "vehicle~`#苏FM1SND",
+      "data": {
+        "label": "车辆",
+        "isDirected": true
+      },
+      "attributes": {}
+    }
+  ]
+}

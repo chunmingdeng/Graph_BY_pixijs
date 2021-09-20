@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "people~`#321284198702201103",
+      "data": {
+        "type": "people",
+        "label": "321284198702201103"
+      },
+      "attributes": {
+        "x": -150,
+        "y": 0,
+        "borderColor": "#00ff00",
+        "scale": 1.0
+      }
+    },
+    {
+      "id": "school~`#3",
+      "data": {
+        "type": "school",
+        "label": "京州二中"
+      },
+      "attributes": {
+        "x": 150,
+        "y": 0
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "people~`#321284198702201103~`#school~`#3~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#3",
+      "data": {
+        "type": "study_at",
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {
+        "lineWidth": 5.0,
+        "color": "#cdb79e"
+      }
+    }
+  ]
+}

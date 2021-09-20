@@ -1,0 +1,363 @@
+{
+  "nodes": [
+    {
+      "id": "people~`#321284198702201009",
+      "data": {
+        "type": "people",
+        "label": "321284198702201009"
+      },
+      "attributes": {
+        "x": -126.42796399426501,
+        "y": 390.408987646313
+      }
+    },
+    {
+      "id": "people~`#321284198702200448",
+      "data": {
+        "type": "people",
+        "label": "阿曼"
+      },
+      "attributes": {
+        "x": -443.3246317080963,
+        "y": -438.44483913652726
+      }
+    },
+    {
+      "id": "government_department~`#京州三中",
+      "data": {
+        "type": "government_department",
+        "label": "京州三中"
+      },
+      "attributes": {
+        "x": -293.71207782121553,
+        "y": -191.33347728121467
+      }
+    },
+    {
+      "id": "people~`#321284198702201103",
+      "data": {
+        "type": "people",
+        "label": "321284198702201103"
+      },
+      "attributes": {
+        "x": -288.04855570159026,
+        "y": -363.5339239270416
+      }
+    },
+    {
+      "id": "motor_vehicle~`#LXC15950501103LXM",
+      "data": {
+        "type": "motor_vehicle",
+        "label": "LXC15950501103LXM"
+      },
+      "attributes": {
+        "x": -125.03793977158685,
+        "y": -417.6026799627061
+      }
+    },
+    {
+      "id": "government_department~`#京州市计划生育委员会",
+      "data": {
+        "type": "government_department",
+        "label": "京州市计划生育委员会"
+      },
+      "attributes": {
+        "x": -168.4532365830943,
+        "y": -240.20426147790886
+      }
+    },
+    {
+      "id": "government_department~`#汉东省公安厅",
+      "data": {
+        "type": "government_department",
+        "label": "汉东省公安厅"
+      },
+      "attributes": {
+        "x": -287.49794543482966,
+        "y": -535.199658731354
+      }
+    },
+    {
+      "id": "government_department~`#京州医学院",
+      "data": {
+        "type": "government_department",
+        "label": "京州医学院"
+      },
+      "attributes": {
+        "x": -441.6436813462453,
+        "y": -284.04796650839364
+      }
+    },
+    {
+      "id": "school~`#5",
+      "data": {
+        "type": "school",
+        "label": "汉东政法大学"
+      },
+      "attributes": {
+        "x": -121.01213367003275,
+        "y": -323.3369270338241
+      }
+    },
+    {
+      "id": "phone_number~`#13551886832",
+      "data": {
+        "type": "phone_number",
+        "label": "13551886832"
+      },
+      "attributes": {
+        "x": 240.47838215309292,
+        "y": 47.0338452757193
+      }
+    },
+    {
+      "id": "school~`#7",
+      "data": {
+        "type": "school",
+        "label": "京州医学院"
+      },
+      "attributes": {
+        "x": -112.47807817205768,
+        "y": 221.88882921856012
+      }
+    },
+    {
+      "id": "government_department~`#京州一中",
+      "data": {
+        "type": "government_department",
+        "label": "京州一中"
+      },
+      "attributes": {
+        "x": -19.706333585853724,
+        "y": 259.4979904666127
+      }
+    },
+    {
+      "id": "vehicle~`#苏FM1SND",
+      "data": {
+        "type": "vehicle",
+        "label": "苏FM1SND"
+      },
+      "attributes": {
+        "x": -178.43194696634853,
+        "y": -495.7046253901086
+      }
+    },
+    {
+      "id": "government_department~`#京州市纪委",
+      "data": {
+        "type": "government_department",
+        "label": "京州市纪委"
+      },
+      "attributes": {
+        "x": 38.94979249241915,
+        "y": 354.99621064288283
+      }
+    },
+    {
+      "id": "phone_number~`#15642642256",
+      "data": {
+        "type": "phone_number",
+        "label": "15642642256"
+      },
+      "attributes": {
+        "x": 204.80939563770065,
+        "y": -454.16013109236667
+      }
+    },
+    {
+      "id": "real_estate~`#FW00005517",
+      "data": {
+        "type": "real_estate",
+        "label": "FW00005517"
+      },
+      "attributes": {
+        "x": -217.9867690397363,
+        "y": 247.71526133952352
+      }
+    },
+    {
+      "id": "school~`#3",
+      "data": {
+        "type": "school",
+        "label": "京州二中"
+      },
+      "attributes": {
+        "x": 104.06691413227057,
+        "y": -53.33352653747356
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "people~`#321284198702201103~`#government_department~`#京州市计划生育委员会~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "government_department~`#京州市计划生育委员会",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#school~`#3~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#3",
+      "data": {
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#vehicle~`#苏FM1SND~`#person_has_vehicle~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "vehicle~`#苏FM1SND",
+      "data": {
+        "label": "人拥有车辆 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#government_department~`#京州三中~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "government_department~`#京州三中",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#school~`#5~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#5",
+      "data": {
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "phone_number~`#13551886832~`#phone_number~`#15642642256~`#called~`#SourceToTarget",
+      "fromId": "phone_number~`#13551886832",
+      "toId": "phone_number~`#15642642256",
+      "data": {
+        "label": "通话 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#government_department~`#京州医学院~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "government_department~`#京州医学院",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#motor_vehicle~`#LXC15950501103LXM~`#person_has_motor_vehicle~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "motor_vehicle~`#LXC15950501103LXM",
+      "data": {
+        "label": "人拥有机动车 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#government_department~`#京州市纪委~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "government_department~`#京州市纪委",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#government_department~`#汉东省公安厅~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "government_department~`#汉东省公安厅",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#real_estate~`#FW00005517~`#person_has_real_estate~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "real_estate~`#FW00005517",
+      "data": {
+        "label": "人拥有不动产 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#school~`#3~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "school~`#3",
+      "data": {
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#phone_number~`#15642642256~`#person_mobile~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "phone_number~`#15642642256",
+      "data": {
+        "label": "人员手机 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#school~`#7~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "school~`#7",
+      "data": {
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#people~`#321284198702200448~`#father_and_child~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "people~`#321284198702200448",
+      "data": {
+        "label": "父子 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#phone_number~`#13551886832~`#person_mobile~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "phone_number~`#13551886832",
+      "data": {
+        "label": "人员手机 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201009~`#government_department~`#京州一中~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201009",
+      "toId": "government_department~`#京州一中",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    }
+  ]
+}

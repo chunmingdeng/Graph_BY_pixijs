@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "people~`#321284198702201103",
+      "data": {
+        "type": "people",
+        "label": "321284198702201103"
+      },
+      "attributes": {
+        "x": -288.04855570159026,
+        "y": -363.5339239270416,
+        "color": "#FF2C00"
+      }
+    },
+    {
+      "id": "government_department~`#京州市计划生育委员会",
+      "data": {
+        "type": "government_department",
+        "label": "京州市计划生育委员会"
+      },
+      "attributes": {
+        "x": -468.4532365830943,
+        "y": -240.20426147790886,
+        "color": "#FFA000"
+      }
+    },
+    {
+      "id": "vehicle~`#苏FM1SND",
+      "data": {
+        "type": "vehicle",
+        "label": "苏FM1SND"
+      },
+      "attributes": {
+        "x": -178.43194696634853,
+        "y": -495.7046253901086,
+        "color": "#00ff00"
+      }
+    },
+    {
+      "id": "school~`#3",
+      "data": {
+        "type": "school",
+        "label": "京州二中"
+      },
+      "attributes": {
+        "x": -14.06691413227057,
+        "y": -23.33352653747356,
+        "color": "#3664A3"
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "people~`#321284198702201103~`#government_department~`#京州市计划生育委员会~`#worked_at_government~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "government_department~`#京州市计划生育委员会",
+      "data": {
+        "label": "公职人员就职 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#school~`#3~`#study_at~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "school~`#3",
+      "data": {
+        "label": "就读学校 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    },
+    {
+      "id": "people~`#321284198702201103~`#vehicle~`#苏FM1SND~`#person_has_vehicle~`#SourceToTarget",
+      "fromId": "people~`#321284198702201103",
+      "toId": "vehicle~`#苏FM1SND",
+      "data": {
+        "label": "人拥有车辆 1次",
+        "isDirected": true
+      },
+      "attributes": {}
+    }
+  ]
+}
